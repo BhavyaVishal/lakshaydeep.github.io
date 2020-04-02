@@ -4,7 +4,8 @@
                .red-text{
                     color:red;
                     font-size:30px;
-                    font-family:cursive; }
+                    font-family:cursive;
+                    text-align:center; }
                input{
                     color:black;
                     font-family:serif;}
@@ -30,39 +31,49 @@ button{
 
       </head>
       <body>
-           <h1 class="red-text">Intelli Learn</h1>
-          <input type="text" placeholder="First Name" >
-          <input type="text" placeholder="Last Name">
-          <input type="text" placeholder="Nick Name">
-          <input type="text" placeholder="e-mail id">
-          <input type="text" placeholder="contact number">
+         <h1 class="red-text">Intelli Learn</h1>
+        <div style="border-style:solid;border-width:5px; text-align:center;
+        margin:0px 600px 0px 600px;"> <h1 style="font-size:30px;">Sign in</h1>
+         <div> <input type="text" placeholder="First Name" > </div>
+          <div><input type="text" placeholder="Last Name"> </div>
+          <div><input type="text" placeholder="Nick Name"> </div>
+          <div><input type="text" placeholder="e-mail id"> </div>
+          <div><input type="text" placeholder="contact number"></div>
           <h2> Class:</h2>
-          <label for="1to5class">
+          <div> <label for="1to5class">
           <input  type="radio" name="1to5class-6to8class-9to12-dropout" >1to5class </label>
-          <label for="to5class">
+          </div>
+          <div><label for="to5class">
           <input type="radio" name="1to5class-6to8class-9to12-dropout ">6to8class </label>
-          <label for="9to12class">
+          </div>
+          <div><label for="9to12class">
           <input  type="radio" name="1to5class-6to8class-9to12-dropout" >9to12class </label>
-          <label for="dropout">
+          </div>
+          <div><label for="dropout">
           <input  type="radio" name="1to5class-6to8class-9to12class-dropout">dropout</label>
+          </div>
           <h3> Explore:-</h3>
+          <div><label>
+          <input type="checkbox" name="field">physics</label></div>
+          <div><label>
+          <input type="checkbox" name="field">mathematics</label></div>
           <label>
-          <input type="checkbox" name="field">physics</label>
-          <label>
-          <input type="checkbox" name="field">mathematics</label>
-          <label>
-          <input type="checkbox" name="field">qauntum world</label>
+          <div><input type="checkbox" name="field">qauntum world</label></div>
           <h4> Level:- </h4>
           <!--this is level of extra stuff provided level -->
-          <label>
+          <div><label>
           <input type="radio" name="diamond-crown-ace-conqouer">diamond</label>
-          <label>
-      <div>         
-     <input type="radio" name="diamond-crown-ace-conqouer">crown</label>
-     <label >
-     <input type="radio" name="diamond-crown-ace-conqouer">ace</label>
-     <label>
-     <input type="radio" name="diamond-crown-ace-conqouer">conqouer</label>
-     <button type="submit">Submit</button> </div>
-      </body>
- </html>
+          </div>
+          <div> <div> <label>       
+          <input type="radio" name="diamond-crown-ace-conqouer">crown</label></div>
+          <div><label >
+           <input type="radio" name="diamond-crown-ace-conqouer">ace</label></div>
+          <div><label>
+          <input type="radio" name="diamond-crown-ace-conqouer">conqouer</label></div></div>
+          <button type="submit">Submit</button> </div>
+           <div style="text-align:center; margin-left: -250px;">
+           <div><a href="./Explore.html">Explore </a></div>
+          <div><a href="./Profile.html">Profile</a></div>
+          <a href="./Lab.html">Lab</a></div>
+          </body>
+          </html>
