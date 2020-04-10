@@ -13,13 +13,15 @@ font-family:"Pacifico";
 text-align:center;
 color:rgb(120,175,159);
 font-weight:lighter;
+
  
  
  }
 
  h2{
-     font-family:"Pacifico";
+     font-family:"Raleway";
      color:rgb(113, 186, 199);
+     margin-top:70px;
  }
 
 input{
@@ -36,13 +38,13 @@ h4{
                
 
      .para{
-         font-family:"Bellota";
-         font-size:15px;
+         font-family:"Raleway";
+         font-size:20px;
      }
 
      .para_s{
-         font-family:"Bellota";
-         font-size:15px;;
+         font-family:"Raleway";
+         font-size:20px;
      }
  button{
       color:green;
@@ -78,8 +80,11 @@ a:hover{
     transform : scale(3);
 }
 
-.sign_up{
-    background:linear-gradient(45deg, )
+#sign_up{
+   padding:2em;
+   font-size:2em;
+   font-family:"Raleway";
+
 }
   
 
@@ -98,6 +103,14 @@ a:hover{
     
 }
 
+.navbar{
+    color:gray; 
+    margin:30px;
+    font-size:2em;
+    text-decoration:none; 
+    font-family:"Raleway"
+     
+} 
 
 @keyframes up_down{
     0%{top:1%;
@@ -115,4 +128,8 @@ a:hover{
         top:1%;
         width:50px;
     }
+}
+
+a:hover{
+    color:white;
 }
