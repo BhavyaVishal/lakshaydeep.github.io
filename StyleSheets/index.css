@@ -1,0 +1,67 @@
+ 
+
+#ball1{
+    position:absolute;
+    height:50px;
+    width:50px;
+    box-shadow:10px 10px 10px black;
+   
+    background:linear-gradient(45deg, violet , rgb(113, 186, 199));
+    animation-name:up_down;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    border-radius:25px;
+    animation-timing-function:ease-out;
+    margin-left:5%;
+    
+}
+ 
+
+
+body{
+    background-color:rgb(53,52,54);
+    color:rgb(209,218,185);
+    width:70%;
+    margin-left:10%;
+ }
+
+#text_intelli_learn{ 
+font-size:50px;
+font-family:"Pacifico";
+text-align:center;
+color:rgb(120,175,159);
+font-weight:lighter;
+}
+
+  
+
+.navbar{
+    color:gray; 
+    margin:30px;
+    font-size:2em;
+    text-decoration:none; 
+    font-family:"Raleway"
+     
+} 
+
+@keyframes up_down{
+    0%{top:1%;
+        width:50px;
+        
+          
+    }
+    50%{
+        top:5%;
+        width:53px;
+         
+        
+    }
+    100%{
+        top:1%;
+        width:50px;
+    }
+}
+
+a:hover{
+    color:white;
+}
